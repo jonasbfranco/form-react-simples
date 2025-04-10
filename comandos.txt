@@ -1,0 +1,18 @@
+#### PRISMA
+
+npm install prisma --save-dev
+---- npx prisma init --datasource-provider sqlite --output ../generated/prisma
+npx prisma init --datasource-provider postgresql --output ../generated/prisma
+npx prisma migrate dev --name tabela usuario
+npm install @prisma/client
+
+
+### criar banco excluido
+npx prisma migrate deploy
+
+
+### abrir prisma studio
+npx prisma studio
+
+
+
